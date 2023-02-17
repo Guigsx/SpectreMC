@@ -143,3 +143,46 @@ h1 {
 .infos p {
     margin-top: 100px;
 }
+
+section {
+    height: 450px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.cards p {
+    cursor: pointer;
+    width: 20%;
+    margin: 50px;
+    background-color: rgba(0, 0, 0, 0.842);
+    height: 300px;
+    border-radius: 10px;
+    transition: all 0.9s;
+    box-shadow: 0px 0px 20px black;
+}
+
+.cards img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 20%;
+    margin-top: 30px;
+}
+
+.cards nome {
+    position: relative;
+    top: 30%;
+    left: -20%;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.cards p:hover {
+    margin-top: 30px;
+}
