@@ -25,15 +25,14 @@ header h1 {
 ul {
     margin-right: 100px;
 }
+
 li {
     font-weight: 700;
     display: inline;
-    margin-right: 10px;
-    padding: 10px;
     cursor: pointer;
     font-size: 18px;
-    color: white;
-    text-decoration: none;
+    transition: all 0.5s;
+    padding: 30px;
 }
 
 li a {
@@ -42,7 +41,7 @@ li a {
 }
 
 li:hover {
-    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.37);
 }
 
 .principal {
@@ -61,7 +60,7 @@ li:hover {
 }
 
 .container {
-    margin-top: 1px;
+    margin-top: 5px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -72,53 +71,8 @@ li:hover {
 .container p {
     text-align: center;
     width: 700px;
-}
-
-footer {
-    height: 200px;
-    background: linear-gradient(0.25turn, #202020ea, #000000);
-}
-
-.help {
-    padding: 10px;
-    width: 300px;
-    color: white;
-    margin-left: 150px;
-}
-
-.help,
-h1 {
     font-size: 18px;
-}
-
-.help h2 {
-    font-weight: 500;
-    font-size: 15px;
-    margin-left: 1px;
-}
-
-.sobre {
-    padding: 10px;
-    width: 300px;
-    color: white;
-    position: relative;
-    left: 40%;
-    top: -58%;
-}
-
-.sobre,
-h1 {
-    font-size: 18px;
-}
-
-.sobre h2 {
-    font-weight: 400;
-    font-size: 15px;
-    margin-left: 1px;
-}
-
-.infos p {
-    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 section {
